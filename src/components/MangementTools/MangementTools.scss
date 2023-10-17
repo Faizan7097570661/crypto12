@@ -1,0 +1,94 @@
+:root{
+    --PrimaryColor:hsl(26,93%,50%);
+    --HoverColor:hsl(26,90%,42%);
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor:hsl(0,0%,18%);
+    --textColor:hsl(248,1%,48%);
+    --whiteColorDeam:hsl(0,0%,93%);
+    --greyBg:hsl(0,0%,96%);
+    --greyText:rgb(190,190,190);
+    --inputColor:hsl(330,12%,97%);
+    --pinkColor:#C747B1;
+    --greenColor:#5EA98B;
+    /* box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45); */
+}
+.MangementTools{
+padding-top:2rem;
+    .mangementTooled{
+        .Tools{
+.HeadTool{
+    color:var(--pinkColor)
+}
+p{
+    color: var(--whiteColor);
+    padding: 0.5rem;
+}
+ul{
+    li{
+        list-style: disc;
+        color: var(--whiteColor);
+    }
+}
+}
+.ExampleTool{
+    ul{
+        li{
+            // list-style: disc;
+            color: gold;
+        }
+    }
+    p{
+        color: var(--whiteColor);
+    padding: 1rem;
+    }
+
+    h5{
+        color:gold
+    }
+}
+    }
+}
+
+// .accordian{
+//     margin:60px auto;
+//     width:100%;   
+// }
+
+// .accordian li{
+//     list-style: none;
+//     width:100%;
+//     margin:20px;
+//     padding: 10px;
+//     border-radius: 8px;
+//     background-color: "gold";
+//     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px 6px 10px -1px rgba(255,255,255,0.7);
+
+// }
+// .accordian li label{
+//     display: flex;
+//     align-items: center;
+//     padding: 10px;
+//     cursor: pointer;
+//     font-weight: 500;
+// }
+// label::before{
+//     content: '+';
+//     margin-right: 10px;
+//     font-size: 25px;
+//     font-weight: 600;
+//     color: "gold";
+// }
+// input[type="radio"]{
+//     display: none;
+// }
+
+// .accordian .content{
+//     padding: 0 10px;
+//     line-height: 26px;
+//     overflow: hidden;
+//     transition:max-height 0.5s,padding 0.5s ;
+// }
+// .accordian input[type="radio"]:checked +label+.content{
+//     max-height: 400px;
+//     padding: 10px 10px 20px;
+// }
